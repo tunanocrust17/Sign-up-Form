@@ -12,9 +12,18 @@ body {
     width: 700px;
     height: 100vh;
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 .photo-credit {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+ }
+
+a {
+    text-decoration: underline;
     color: white;
 }
 
@@ -24,9 +33,10 @@ body {
 }
 
 .header {
-    margin: 100px 100px 100px 50px;
+    background-color: rgb(235, 233, 232);
+    padding: 100px 100px 100px 50px;
 }
 
 .form-section {
-
+    margin: 50px;
 }
