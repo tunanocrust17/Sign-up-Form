@@ -54,3 +54,10 @@ a {
 .form-section {
     margin: 25px 100px 10px 50px;
 }
+
+.form-container {
+    display: flex;
+    display: row;
+    justify-content: space;
+    flex-wrap: wrap;
+}
