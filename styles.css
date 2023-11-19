@@ -16,6 +16,12 @@ body {
     justify-content: center;
 }
 
+.brewsters-logo {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
 .photo-credit {
     color: white;
     position: absolute;
