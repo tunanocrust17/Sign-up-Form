@@ -48,9 +48,9 @@ a {
 
 .header {
     background-color: rgb(243, 243, 243);
-    padding: 100px 100px 100px 50px;
+    padding: 100px 100px 50px 50px;
 }
 
 .form-section {
-    margin: 50px;
+    margin: 25px 100px 10px 50px;
 }
