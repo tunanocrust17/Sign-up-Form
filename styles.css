@@ -8,7 +8,7 @@ body {
 }
 
 .hero-image {
-    background-image: url("trees.jpg");
+    background-image: url("coffee.jpg");
     width: 700px;
     height: 100vh;
     background-size: cover;
@@ -33,7 +33,7 @@ a {
 }
 
 .header {
-    background-color: rgb(235, 233, 232);
+    background-color: rgb(243, 243, 243);
     padding: 100px 100px 100px 50px;
 }
 
