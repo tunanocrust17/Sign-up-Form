@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-image {
+    background-image: url("trees.jpg");
+    width: 33.3%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.photo-credit {
+    color: white;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin: 200px 150px ;
+}
