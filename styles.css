@@ -57,7 +57,15 @@ a {
 
 .form-container {
     display: flex;
-    display: row;
-    justify-content: space;
+    flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.form-row {
+    display: flex;
+    flex-direction:  column;
+    justify-content: space-between; */
+    flex-wrap: wrap;
+    width: 45%;
 }
