@@ -9,7 +9,7 @@ body {
 
 .hero-image {
     background-image: url("coffee.jpg");
-    width: 700px;
+    width: 750px;
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -17,6 +17,7 @@ body {
 }
 
 .logo-div {
+    width: 750px;
     height: 200px;
     background-color: rgb(73, 73, 73, 0.75);
     display: flex;
@@ -28,6 +29,7 @@ body {
     color: white;
     font-size: 3rem;
     text-align: center;
+    padding: 0 200px;
 }
 
 .photo-credit {
@@ -48,11 +50,11 @@ a {
 
 .header {
     background-color: rgb(243, 243, 243);
-    padding: 100px 100px 50px 50px;
+    padding: 100px 200px 50px 50px;
 }
 
 .form-section {
-    margin: 25px 100px 10px 50px;
+    margin: 25px 200px 10px 50px;
 }
 
 .form-container {
