@@ -54,7 +54,9 @@ a {
 }
 
 .form-section {
-    margin: 25px 200px 10px 50px;
+    padding: 25px 200px 10px 50px;
+    margin-bottom: 5px;
+    box-shadow: 0px 8px 6px -6px rgb(194, 194, 194);
 }
 
 .form-container {
@@ -74,5 +76,5 @@ a {
 
 .bottom-div {
     background-color: rgb(243, 243, 243);
-    padding-top: 30px;
+    padding: 30px 100px 0 50px;
 }
