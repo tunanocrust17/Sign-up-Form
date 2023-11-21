@@ -84,4 +84,13 @@ a {
 .bottom-div {
     background-color: rgb(243, 243, 243);
     padding: 30px 100px 0 50px;
+    height: 100vh;
+}
+
+.submit-button {
+    background-color: rgb(8, 32, 8);
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 10px 25px;
 }
