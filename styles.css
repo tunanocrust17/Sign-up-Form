@@ -74,6 +74,13 @@ a {
     width: 45%;
 }
 
+.form-row input {
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    margin: 5px 0 20px 0;
+    padding: 8px 0;
+}
+
 .bottom-div {
     background-color: rgb(243, 243, 243);
     padding: 30px 100px 0 50px;
