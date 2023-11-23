@@ -23,7 +23,7 @@
             </div>
             <div class="form-section">
                 <h2>Let's do this!</h2>
-                <form action="" method="post">
+                <form>
                     <div class="form-container">
                         <div class="form-row">
                             <label for="first_name">FIRST NAME</label>
@@ -43,20 +43,21 @@
                         </div>
                         <div class="form-row">
                             <label for="create_password">CREATE PASSWORD</label>
-                            <input type="password" id="create_password" name="user_password">
+                            <input type="password" id="create_password" name="user_password" minlength="6" maxlength="15">
                         </div>
                         <div class="form-row">
                             <label for="confirm_password">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirm_password" name="user_confirmed_password">
+                            <input type="password" id="confirm_password" name="user_confirmed_password" minlength="6" maxlength="15">
                         </div>
                     </form-container>
-                </form>
+                
             </div>
         </div>
         <div class="bottom-div">
             <button type="submit" class="submit-button">Create Account</button>
             <p>Already have an account? <a href="">Login Here</a></p>
         </div>
+    </form>
     </div>
 </body>
 </html>
