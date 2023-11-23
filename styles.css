@@ -10,7 +10,7 @@ body, html {
 
 .hero-image {
     background-image: url("coffee.jpg");
-    width: 40%;
+    width: 576px;
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -19,7 +19,7 @@ body, html {
 }
 
 .logo-div {
-    width: 100%;
+    width: 576px;
     height: 200px;
     background-color: rgb(73, 73, 73, 0.75);
     display: flex;
@@ -49,7 +49,7 @@ body, html {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    margin-left:  40%;
+    margin-left: 576px;
 }
 
 .header {
