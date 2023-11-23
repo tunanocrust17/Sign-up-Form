@@ -40,12 +40,13 @@ body, html {
     bottom: 10px;
  }
 
-a {
+.hero-image a {
     text-decoration: underline;
     color: white;
 }
 
 .right-container {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     margin-left: 750px;
@@ -87,7 +88,6 @@ a {
 .bottom-div {
     background-color: rgb(243, 243, 243);
     padding: 30px 100px 0 50px;
-    height: 100vh;
 }
 
 .submit-button {
