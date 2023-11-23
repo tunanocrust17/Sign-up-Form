@@ -1,5 +1,6 @@
-body {
+body, html {
     margin: 0;
+    height: 100%;
 }
 
 .container {
@@ -9,11 +10,12 @@ body {
 
 .hero-image {
     background-image: url("coffee.jpg");
-    width: 750px;
+    width: 750;
     height: 100vh;
     background-size: cover;
     display: flex;
     justify-content: center;
+    position: fixed;
 }
 
 .logo-div {
@@ -46,6 +48,7 @@ a {
 .right-container {
     display: flex;
     flex-direction: column;
+    margin-left: 750px;
 }
 
 .header {
