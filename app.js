@@ -3,7 +3,8 @@ let confirmPassword = document.getElementById('confirm_password').value;
 let confirmPasswordVariable = document.getElementById('confirm_password');
 
 confirmPasswordVariable.addEventListener('keyup', () =>{
-    if(confirmPassword !== password){
-        document.getElementById('confirm_password').style.borderColor='red'
+    if(confirmPassword =! password){
+        confirmPasswordVariable.style.borderColor='red';
+        
     }
 })
