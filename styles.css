@@ -86,7 +86,7 @@ body, html {
     padding: 8px 0;
 }
 
-.form-row input[type="email"]:invalid
+.form-row input[type="email"]:invalid, 
 .form-row input[type="password"]:invalid{
     border: 1px solid red;
 }
