@@ -14,9 +14,7 @@ function checkPwd() {
             document.getElementById('password_error').innerHTML="Passwords match"
             document.getElementById('password_error').style.color='green'
         }
-    } else {
-        // document.getElementById('password_error').style.display='none'
-    }
+    } 
 }
 
 
