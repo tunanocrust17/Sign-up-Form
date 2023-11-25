@@ -1,9 +1,29 @@
-let password = document.getElementById('create_password').value;
-let confirmPassword = document.getElementById('confirm_password').value;
-let confirmPasswordVariable = document.getElementById('confirm_password');
+let pwd = document.getElementById('create_password');
+let confirmPwd = document.getElementById('confirm_password')
 
-confirmPasswordVariable.addEventListener('keyup', () =>{
-    if(confirmPassword =! password){
-        confirmPasswordVariable.style.borderColor='red';
+function checkPwd() {
+    if(confirmPwd.value) {
+        if(pwd.value != confirmPwd.value) {
+            pwd.style.borderColor="red";
+            confirmPwd.style.borderColor="red";
+            document.getElementById('password_error').innerHTML="*Passwords do not match!";
+            document.getElementById('password_error').style.color='red'
+        } else {
+            pwd.style.borderColor="green";
+            confirmPwd.style.borderColor="green";
+            document.getElementById('password_error').innerHTML="Passwords match"
+            document.getElementById('password_error').style.color='green'
+        }
+    } else {
+        // document.getElementById('password_error').style.display='none'
     }
+}
+
+
+pwd.addEventListener('keyup', () =>{
+    checkPwd()
+})
+
+confirmPwd.addEventListener('keyup', () =>{
+    checkPwd()
 })
