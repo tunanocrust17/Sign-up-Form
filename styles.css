@@ -106,8 +106,8 @@ body, html {
     outline: none;
 }
 
-.form-row input[type="email"]:invalid, 
-.form-row input[type="password"]:invalid{
+.form-row input[type="email"]:not(:placeholder-shown):not(:focus):invalid, 
+.form-row input[type="password"]:not(:placeholder-shown):not(:focus):invalid{
     border: 1px solid red;
 }
 
